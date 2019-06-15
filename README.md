@@ -1,2 +1,1 @@
 # django-tutorial
-# django-tutorial
