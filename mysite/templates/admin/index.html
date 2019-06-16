@@ -2,7 +2,13 @@
 {% load i18n static %}
 
 {% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "admin/css/dashboard.css" %}">{% endblock %}
-{% block extrahead %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static 'polls/dashboard.css' %}">{% endblock %}
+{% block extrahead %} 
+    <style> 
+        #by{
+            color: gold
+        }
+    </style> 
+{% endblock %}
 
 {% block coltype %}colMS{% endblock %}
 
